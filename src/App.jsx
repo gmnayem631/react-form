@@ -2,6 +2,7 @@ import "./App.css";
 import ControlledField from "./components/ControlledField";
 import FormAction from "./components/FormAction";
 import SimpleForm from "./components/SimpleForm";
+import Uncontrolled from "./components/Uncontrolled";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         </div>
         {/* <SimpleForm></SimpleForm> */}
         {/* <FormAction></FormAction> */}
-        <ControlledField></ControlledField>
+        {/* <ControlledField></ControlledField> */}
+        <Uncontrolled></Uncontrolled>
       </section>
     </>
   );
