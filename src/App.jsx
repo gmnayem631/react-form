@@ -1,6 +1,7 @@
 import "./App.css";
 import ControlledField from "./components/ControlledField";
 import FormAction from "./components/FormAction";
+import ProductManagement from "./components/ProductManagement";
 import SimpleForm from "./components/SimpleForm";
 import Uncontrolled from "./components/Uncontrolled";
 
@@ -14,7 +15,8 @@ function App() {
         {/* <SimpleForm></SimpleForm> */}
         {/* <FormAction></FormAction> */}
         {/* <ControlledField></ControlledField> */}
-        <Uncontrolled></Uncontrolled>
+        {/* <Uncontrolled></Uncontrolled> */}
+        <ProductManagement></ProductManagement>
       </section>
     </>
   );
